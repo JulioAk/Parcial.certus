@@ -1,0 +1,136 @@
+/* style global */
+* {
+    font-family: Tahoma, sans-serif;
+    color: rgb(27, 26, 26);
+    background-color: #f1f1f6;
+    margin: 0%;
+    padding: 0%;
+}
+/* stye titulo */
+ h1 {
+    font-size: 2.5em;
+    color: #002333;
+    font-family:  Tahoma, sans-serif;
+    padding: 20px;
+    max-width: 30%;
+    margin: 0%;
+}
+/* style search  */
+form {
+    background-color: white;
+    width: 25%;  
+    max-width: 35%;
+    padding: 0% 0% 0% 1%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px #159A9C;
+}
+form input {
+    width: 100%;
+    border: none;
+    background-color: white;
+    outline: none;
+ 
+}
+form button {
+    border: none;
+    background-color: #159A9C;
+    width: 17%;
+    height: 12%;
+}
+form button img{
+    padding: 8%;
+    width: 40%;
+    outline: 0;
+    background-color: transparent;
+}
+/* style main */
+main {
+    margin: 5%;
+}
+/* style seccion */
+section {
+    margin: 4%;
+    text-align: center;
+    padding: 2%;
+}
+.recomendado {
+    margin: 0% 0% 4%;
+}
+section p {
+    padding: 9px;
+}
+section p .categoria {
+    font-size: 2em;
+    color: #159A9C;
+}
+section p .text {
+    font-size: 0.7em;
+    color: #002333;
+}
+/* style producto */
+article {
+    max-width: 23%;
+    display: inline-block ;
+    padding:0%;
+    margin: 4px;
+    background-color: white;
+}
+article img {
+    width: 100%;
+    background-color: white;
+}
+article .descripcion{
+    margin: 0%;
+    padding: 4%;
+    background-color: white;
+}
+article h3 {
+    font-size: 1em;
+    font-weight: 500;
+    background-color: white;
+}
+article p {
+    padding: 9% 3%  ;
+    background-color: white;
+}
+article p span {
+    background-color: white;
+}
+article p span.antes {
+    color: #159A9C;
+    text-decoration: line-through;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+article p span.descuento {
+    color: rgb(14, 197, 29);
+}
+/* style boton */
+article button {
+   border: none;
+   width: 95%;
+   height: 95%;
+   padding: 3%;
+   color: #ffff;
+   font-size: 1em;
+   background-color: #159A9C;
+}
+article button:hover {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    transition: 0.3s;
+    font-size: 1.04em;
+
+
+}
+/*  style pie de pagina */
+footer {
+    background-color: #002333;
+    color: white;
+    text-align: left;
+    padding: 2%;
+}
+
