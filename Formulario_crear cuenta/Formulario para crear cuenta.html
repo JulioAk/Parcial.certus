@@ -20,7 +20,8 @@
         <h2>Crear tu cuenta</h2>
 
         <!-- Para hacer formularios escritos -->
-        <form id="formCreateAccount" action="confimacion de envio de datos.html" method="post">
+        <form id="formCreateAccount" action="confimacion de envio de datos.html" method="get">
+           <div class="form">
             <div class="ancho">
                 <!-- Entrada "nombre" -->
                 <label for="txtnombre">Nombres:</label>
@@ -92,18 +93,21 @@
                 <label for="psscontra">Contraseña:</label>
                 <input type="password" name="past" id="psscontra" maxlength="30" required>
             </div>
-        </form>
-        <!--Entrada "terminos" -->
-        <div class="term">
-            <input type="checkbox" onclick="agreesubmit(this)" name="condiciones" id="" required> Estoy de acuerdo
-            con los <a href="terminos.html" target="_blank">Terminos y Condiciones</a>
-        </div>
+           </div>
 
-        <!-- Entrada"enviar" -->
-        <div class="enviar">
-            <button type="submit">Enviar</button>
-        </div>
+            <!-- terminos y condicones -->
+            <div class="term">
+                <input type="checkbox" onclick="agreesubmit(this)" name="condiciones" id="" required> Estoy de acuerdo
+                con los <a href="terminos.html" target="_blank">Terminos y Condiciones</a>
+            </div>
+    
+            <!-- Entrada"enviar" -->
+            <div class="enviar">
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
     </main>
+    
 </body>
 
 </html>
